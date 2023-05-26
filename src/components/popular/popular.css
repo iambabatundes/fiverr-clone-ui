@@ -1,0 +1,33 @@
+.background-popular {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  font-family: Macan, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+.background-popular-heading {
+  font-size: 0.9rem;
+  font-family: Macan, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+.background-popular-content {
+  display: flex;
+  gap: 20px;
+}
+
+.background-popular-content span {
+  border: 1px solid #fff;
+  background: transparent;
+  border-radius: 20px;
+  padding: 2px 12px 2px;
+  color: #fff;
+  font-family: Macan, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.background-popular-content span:hover {
+  background: #fff;
+  color: #62646a;
+}

@@ -1,0 +1,147 @@
+footer {
+  /* margin: 10rem 6.5rem 8rem 2em; */
+  font-family: Macan, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #404145;
+}
+
+ul {
+  color: #74767e;
+  line-height: 40px;
+}
+
+ul li:hover {
+  color: #1dbf73;
+}
+
+.footer-container {
+  display: flex;
+  margin: 2rem 2rem;
+  justify-content: space-between;
+}
+
+.footer-section {
+  line-height: 50px;
+}
+
+.footer-section span {
+  display: block;
+  line-height: 5px;
+  font-size: 14px;
+  padding-bottom: 20px;
+  color: #b5b6ba;
+}
+
+.footer-section span:hover {
+  color: #1dbf73;
+}
+
+.link {
+  text-decoration: none;
+  color: #74767e;
+}
+
+.line {
+  width: 95%;
+  background: #e4e5e7;
+  height: 1px;
+  border: 0;
+}
+
+.footer-line {
+  width: 100%;
+  height: 1px;
+  border: 0;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  background: #e4e5e7;
+}
+
+.footerDown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 2em;
+}
+
+.fiverrFooter {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-copyright {
+  color: #b5b6ba;
+  font-weight: 200;
+  font-size: 14px;
+}
+.fiverrLogo {
+  color: #62646a;
+  font-weight: 900;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  fill: #74767e;
+}
+
+.footer-icon span {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon svg {
+  display: flex;
+  align-items: center;
+}
+
+.footer-svg:hover {
+  background-color: #f5f5f5;
+}
+
+.footer-sub {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #74767e;
+  font-weight: 600;
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+.footer-english {
+  border-radius: 30px;
+  padding: 0.5px 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-english:hover {
+  background-color: #f5f5f5;
+}
+
+.footer-usd {
+  padding: 6px 14px;
+  border-radius: 30px;
+}
+
+.footer-usd:hover {
+  background-color: #f5f5f5;
+}
+
+.footer-object circle:hover {
+  stroke: none;
+  fill: #f5f5f5;
+}

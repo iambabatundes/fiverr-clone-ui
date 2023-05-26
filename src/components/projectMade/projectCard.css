@@ -1,0 +1,52 @@
+.projectCard {
+  /* border: 1px solid #000; */
+  border-radius: 5px;
+  cursor: pointer;
+  height: 335px;
+  margin: 0rem 0rem;
+  position: relative;
+  width: 100%;
+  max-width: 390px;
+  overflow: hidden;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: 0.9s all ease;
+}
+
+.ProjectCard__image {
+  height: 73%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.ProjectCard__content {
+  color: #000;
+  display: flex;
+  align-items: center;
+  font-family: Macan, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  top: 260px;
+  position: absolute;
+  z-index: 1;
+  padding: 15px;
+  transition: 0.9s all ease;
+}
+
+.profileImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.projectCard__details {
+  color: #95979d;
+  font-size: 14px;
+  font-family: Macan, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 20px;
+}
+
+.projectCard__details h4 {
+  color: #404145;
+  font-size: 14px;
+}

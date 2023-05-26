@@ -1,0 +1,22 @@
+.featured {
+  background: #f1fdf7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.featured__container {
+  display: flex;
+  flex-basis: 0;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.2rem 2em;
+  padding: 50px 0px;
+}
+
+.featured__title {
+  color: #404145;
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 40px;
+  line-height: 40px;
+}
