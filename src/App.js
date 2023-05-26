@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./fonts/MacanPanWeb-Bold.ttf";
+import "./fonts/MacanPanWeb-Extrabold.ttf";
+import "./fonts/MacanPanWeb-Medium.ttf";
+import Home from "./pages/home";
+
+import CategoriesNavbar from "./components/categories/categoriesNavbar";
+import CategoryHome from "./components/categories/categoryHome";
+import { Routes, Route, useLocation } from "react-router-dom";
+import GraphicsDesign from "./components/categories/graphicsDesign/grahicsDesign";
+import Footer from "./components/footer/footer";
+import UserNavbar from "./components/user/userNavbar";
+import UserHome from "./pages/UserHome";
 
 function App() {
+  const location = useLocation();
+
+  const isCategoryRoute = location.pathname.startsWith("/categories");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <UserHome /> */}
+      {isCategoryRoute && <CategoriesNavbar />}
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/categories" element={<CategoryHome />} />
+        <Route
+          path="/categories/graphics-design"
+          element={<GraphicsDesign />}
+        />
+      </Routes>
+
+      {isCategoryRoute && <Footer />}
+    </>
   );
 }
 
