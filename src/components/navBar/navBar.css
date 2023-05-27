@@ -16,6 +16,7 @@ a {
   position: fixed;
   width: 100%;
   transition: 0.9s all ease;
+  z-index: 999999;
 }
 
 .container-navbar.active {
@@ -171,6 +172,7 @@ a {
   height: 0;
   color: #62646a;
 }
+
 /* ---- Menu --*/
 .menu-border {
   margin-top: 5px;
@@ -182,7 +184,7 @@ a {
   display: flex;
   align-items: center;
   overflow: hidden;
-  margin: 0rem 2em;
+  margin: 0.3rem 2em;
   background: #fff;
 }
 
