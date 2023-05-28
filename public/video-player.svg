@@ -4,11 +4,3 @@
 <path d="M62.5 7A1.54 1.54 0 0164 8.5v9a1.5 1.5 0 01-3 0v-9A1.47 1.47 0 0162.5 7zm5 0A1.54 1.54 0 0169 8.5v9a1.5 1.5 0 01-3 0v-9A1.47 1.47 0 0167.5 7z" fill="#fff"/>
 <circle cx="91" cy="13" r="13" opacity=".75" style="isolation:isolate"/>
 <path d="M88.5 7A1.54 1.54 0 0190 8.5v9a1.5 1.5 0 01-3 0v-9A1.47 1.47 0 0188.5 7zm5 0A1.54 1.54 0 0195 8.5v9a1.5 1.5 0 01-3 0v-9A1.47 1.47 0 0193.5 7z" fill="#fff"/>
-
-<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="104" height="26" viewBox="0 0 104 26">
-
-<circle cx="65" cy="13" r="13" opacity=".5" style="isolation:isolate"/>
-<path d="M62.5 7A1.54 1.54 0 0164 8.5v9a1.5 1.5 0 01-3 0v-9A1.47 1.47 0 0162.5 7zm5 0A1.54 1.54 0 0169 8.5v9a1.5 1.5 0 01-3 0v-9A1.47 1.47 0 0167.5 7z" fill="#fff"/>
-<circle cx="91" cy="13" r="13" opacity=".75" style="isolation:isolate"/>
-<path d="M88.5 7A1.54 1.54 0 0190 8.5v9a1.5 1.5 0 01-3 0v-9A1.47 1.47 0 0188.5 7zm5 0A1.54 1.54 0 0195 8.5v9a1.5 1.5 0 01-3 0v-9A1.47 1.47 0 0193.5 7z" fill="#fff"/>
-
